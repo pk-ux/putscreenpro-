@@ -1,0 +1,49 @@
+# Environment and secrets
+.env
+.env.local
+*.secret
+secret.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (if any)
+*.csv
+*.json.bak
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
